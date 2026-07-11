@@ -16,6 +16,9 @@ public class AskQuestions : MonoBehaviour
     [SerializeField] private GameObject interactPrompt; // Optional: UI prompt showing "Press E to talk"
 
     private bool playerInRange = false;
+    private GameObject playerObject;
+    private BasicMove playerMove;
+    private Stop playerStop;
 
     void Update()
     {
@@ -28,9 +31,11 @@ public class AskQuestions : MonoBehaviour
         // Check for player interaction
         if (playerInRange && !ManagerChoices.GetInstance().dialogueIsPlaying)
         {
-            // Check if player presses interact button (you'll need to define this in InputManager)
             if (Input.GetKeyDown(KeyCode.E)) // Or use: InputManager.GetInstance().GetInteractPressed()
             {
+                playerMove?.FaceTowards(transform.position);
+                playerMove?.StopMovement();
+                playerStop?.StopPlayer();
                 StartDialogue();
             }
         }
@@ -53,6 +58,9 @@ public class AskQuestions : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
             playerInRange = true;
+            playerObject = collider.gameObject;
+            playerMove = playerObject.GetComponent<BasicMove>();
+            playerStop = playerObject.GetComponent<Stop>();
         }
     }
 
@@ -61,6 +69,9 @@ public class AskQuestions : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
+            playerObject = null;
+            playerMove = null;
+            playerStop = null;
         }
     }
 }

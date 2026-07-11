@@ -1,9 +1,13 @@
 Spacebar - Progress through dialogue. 
 
-"It was extraordinary, now, how clear her mind became all of a sudden. 
+Narrator: It was extraordinary, now, how clear her mind became all of a sudden. 
 
-She began thinking very fast. As the wife of a detective, she knew quite well what the penalty would be. 
+\*He's properly dead, now?\*
 
-That was fine. It made no difference to her. In fact, it would be a relief"(Dahl 3).
+\*Hm. Serves him right.\*
 
-Objective: Dispose of the lamb (or don't, if you don't want to).
+\*But how shall I go about it now?\*
+
+\*I suppose the lamb is the pressing matter.\*
+
+Objective: Find some way to dispose of the evidence.

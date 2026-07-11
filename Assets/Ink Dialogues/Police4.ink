@@ -1,21 +1,22 @@
 
 
-Mary: "'Would you mind giving me a drink?'"(Dahl 6).
+Would you mind giving me a drink?
+
+Bradford: Absolutely. Would you like this whiskey?
+
+*Yes please. But just a small one. 
+
+It might make me feel better.#suspicion:-10
 
 
-Police: "'Sure I’ll give you a drink. You mean this whiskey?'"(Dahl 7).
+Why don’t you have one yourself, you must be awfully tired. 
 
-*"'Yes please. But just a small one. 
+Bradford: No, ma'am, not on duty.
 
-It might make me feel better'"(Dahl 7).#suspicion:-10
+Please do. You’ve been very good to me.
 
+Bradford: Well, it’s not strictly allowed, 
 
-"'Why don’t you have one yourself, you must be awfully tired. 
-
-Please do. You’ve been very good to me'"(Dahl 7).
-
-Police: "'Well, it’s not strictly allowed, 
-
-but I might take just a drop to keep me going'"(Dahl 7).
+but I might take just a drop to keep me going.
 
 *No thank you. Nevermind.#suspicion:25

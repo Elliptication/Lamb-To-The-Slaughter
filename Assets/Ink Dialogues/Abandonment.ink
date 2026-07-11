@@ -1,10 +1,12 @@
-Patrick: Mary, sit down. I need to say something.
+Patrick: Mary, dear, sit down. 
 
 Are we not going out to eat?
 
-Patrick: I’ve been thinking, and things can’t go on like this.
+Patrick: I’ve been thinking, and I need to say something.
 
 What do you mean?
+
+Patrick: Things can’t go on like this.
 
 Patrick: I’m leaving, Mary. It’s decided.
 
@@ -14,11 +16,11 @@ Patrick: I’ll see you’re provided for. I don’t want a scene.
 
 Did I do something wrong?
 
-Patrick: No. This is my choice.
+Patrick: No. This was my choice.
 
-When were you going to tell me?
+And when were you going to tell me?
 
-Patrick: Tonight. Now.
+Patrick: I wanted to tell you earlier, but, ah, I didn't get the chance.
 
-Let me fix you supper first.
+Let me...Let me fix you supper first.
 

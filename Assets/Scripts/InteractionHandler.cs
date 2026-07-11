@@ -1,115 +1,122 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
 public class InteractionHandler : MonoBehaviour
 {
-
-    public List<Button> interactableButtons = new List<Button>();
-    public List<Transform> interactableTransforms = new List<Transform>();
-    public List<Interactable> interactableScripts = new List<Interactable>();
-    List<float> magnitudes = new List<float>();
-    Transform currentPos;
+    public List<Interactable> interactables = new List<Interactable>();
+    private Transform currentPos;
     public bool isInCycle = false;
 
-    // Start is called before the first frame update
     void Start()
-    { 
-        currentPos = GetComponent<Transform>();
-    }
-
-    void HideUI()
     {
-        this.gameObject.SetActive(false);
+        currentPos = transform;
     }
 
-    void ShowUI()
-    {
-        this.gameObject.SetActive(true);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        currentPos = GetComponent<Transform>();
-        foreach(Transform t in interactableTransforms)
+        currentPos = transform;
+
+        if (interactables.Count == 0)
+            return;
+
+        RemoveDestroyedInteractables();
+
+        int minDex = GetClosestInteractableIndex();
+        if (minDex == -1)
+            return;
+
+        Interactable closest = interactables[minDex];
+
+        if (!isInCycle)
         {
-            Vector2 dist = new Vector2(Mathf.Abs(t.position.x - currentPos.position.x), Mathf.Abs(t.position.y - currentPos.position.y));
-            magnitudes.Add(dist.magnitude);
+            if (!closest.isDisabled)
+                closest.Highlight();
+            else
+                closest.SetDisabledState();
         }
-        if((SearchForMin() != -1))
+
+        if (Input.GetKeyDown(KeyCode.E) && !closest.isDisabled)
         {
-            int minDex = SearchForMin();
-            if(!isInCycle){
-                if(!interactableScripts[minDex].isDisabled)
-                {
-                    interactableButtons[minDex].animator.Play("Highlighted");
-                }
-                else
-                {
-                    interactableButtons[minDex].animator.CrossFade("Disabled", 0.3f);
-                }
-                
-            }    
-
-            if(Input.GetKeyDown(KeyCode.E) && (!interactableScripts[minDex].isDisabled))
-            {
-                
-                //interactableButtons[minDex].onClick;
-                isInCycle = true;
-                interactableButtons[minDex].onClick.Invoke();
-                interactableButtons[minDex].animator.Play("Pressed");
-                interactableScripts[minDex].isDisabled = true;
-                StartCoroutine(Cooldown(minDex));
-                
-
-            }    
-
-            for(int i = 0; i < interactableButtons.Count; i++)
-            {
-                if(i!= minDex)
-                {
-                    if(!interactableScripts[i].isDisabled)
-                    {
-                        interactableButtons[i].animator.CrossFade("Normal", 0.3f);
-                    }
-                    else
-                    {
-                        interactableButtons[i].animator.CrossFade("Disabled", 0.3f);
-                    }
-                }
-            }
-            
+            isInCycle = true;
+            closest.Press();
+            StartCoroutine(Cooldown(closest));
         }
-            
 
-        magnitudes.Clear();
+        for (int i = 0; i < interactables.Count; i++)
+        {
+            if (i == minDex)
+                continue;
+
+            Interactable item = interactables[i];
+            if (item == null)
+                continue;
+
+            if (!item.isDisabled)
+                item.SetNormalState();
+            else
+                item.SetDisabledState();
+        }
     }
 
-    int SearchForMin()
+    public void RegisterInteractable(Interactable interactable)
     {
-        float minVal = 15;
-        int minDex = -1;
-        int currDex = 0;
+        if (interactable == null || interactables.Contains(interactable))
+            return;
 
-        foreach(float i in magnitudes)
+        interactables.Add(interactable);
+    }
+
+    public void UnregisterInteractable(Interactable interactable)
+    {
+        if (interactable == null)
+            return;
+
+        interactables.Remove(interactable);
+    }
+
+    int GetClosestInteractableIndex()
+    {
+        float minVal = 15f;
+        int minDex = -1;
+
+        for (int i = 0; i < interactables.Count; i++)
         {
-            if(i < minVal)
+            Interactable item = interactables[i];
+            if (item == null)
+                continue;
+
+            float dist = Vector2.Distance(
+                new Vector2(currentPos.position.x, currentPos.position.y),
+                new Vector2(item.transform.position.x, item.transform.position.y));
+
+            if (dist < minVal)
             {
-                minVal = i;
-                minDex = currDex;
+                minVal = dist;
+                minDex = i;
             }
-            currDex++;
         }
+
         return minDex;
     }
 
-    IEnumerator Cooldown(int minDex)
+    IEnumerator Cooldown(Interactable interactable)
     {
-        yield return new WaitForSeconds(interactableScripts[minDex].cooldown);
-        interactableScripts[minDex].isDisabled = false;
+        if (interactable == null)
+        {
+            isInCycle = false;
+            yield break;
+        }
+
+        yield return new WaitForSeconds(interactable.cooldown);
+        interactable.isDisabled = false;
         isInCycle = false;
     }
+
+    void RemoveDestroyedInteractables()
+    {
+        interactables.RemoveAll(item => item == null);
+    }
+
+
 }

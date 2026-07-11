@@ -7,13 +7,20 @@ public class Stop : MonoBehaviour
     public BasicMove moveScript;
     public void StopPlayer()
     {
-        moveScript.runSpeed = 0;
-        moveScript.enabled = false;
+        if (moveScript != null)
+        {
+            moveScript.StopMovement();
+            moveScript.runSpeed = 0;
+            moveScript.enabled = false;
+        }
     }
 
     public void StartPlayer()
     {
-        moveScript.enabled = true;
-        moveScript.runSpeed = 2.0f;
+        if (moveScript != null)
+        {
+            moveScript.enabled = true;
+            moveScript.runSpeed = 2.0f;
+        }
     }
 }

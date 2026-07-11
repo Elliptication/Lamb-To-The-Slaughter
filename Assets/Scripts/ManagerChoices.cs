@@ -85,6 +85,7 @@ public class ManagerChoices : MonoBehaviour
     public void EnterDialogueMode(TextAsset inkJSON)
     {
         currentStory = new Story(inkJSON.text);
+        SuspicionManager.RefreshActiveStory();
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
@@ -123,6 +124,7 @@ public class ManagerChoices : MonoBehaviour
             DisplayChoices();
 
             HandleTags(currentStory.currentTags);
+            SuspicionManager.RefreshActiveStory();
         }
         else
         {
@@ -143,15 +145,7 @@ public class ManagerChoices : MonoBehaviour
             {
                 case suspicion:
                     int.TryParse(tagValue, out int changeSuspicion);
-                    if (changeSuspicion > 0)
-                    {
-                        suspicionAmount += changeSuspicion;
-                        suspicionBar.fillAmount = suspicionAmount / 100f;
-                    }
-                    else
-                        suspicionAmount += changeSuspicion;
-                    suspicionBar.fillAmount = suspicionAmount / 100f;
-                    suspicionAmount = Mathf.Clamp(suspicionAmount, 0, 100);
+                    SuspicionManager.ChangeSuspicion(changeSuspicion);
                     break;
             }
         }

@@ -15,43 +15,61 @@ public class SuspicionManager : MonoBehaviour
     public bool lambThrown;
     public bool lambCooked;
 
-    // Set this file to your compiled json asset
-	public TextAsset inkAsset;
-
-	// The ink story that we're wrapping
-	static Story currentStory;
-
-    private int diff;
+    // The ink story that we're tracking (set by ManagerChoices)
+    static Story currentStory;
 
     private bool sub30;
     private bool sub70;
     private bool sup70;
 
-    private float prevSusp = 0f;
     public static float suspicionAmount = 0f;
-
-    bool hasDiffBeenSet = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentStory = new Story(inkAsset.text);
+        // don't create a separate Story here; rely on ManagerChoices to set the active story
+        currentStory = ManagerChoices.currentStory;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float currentSusp = (int) currentStory.variablesState["suspicionDiff"];
+        // always prefer the active story from ManagerChoices if available
+        if (ManagerChoices.currentStory != null)
+            currentStory = ManagerChoices.currentStory;
 
-        if(prevSusp != currentSusp)
+        if (currentStory != null)
         {
-            ChangeSuspicion(currentSusp);
+            object varObj = null;
+            try
+            {
+                varObj = currentStory.variablesState["suspicionDiff"];
+            }
+            catch
+            {
+                varObj = null;
+            }
+
+            float currentDiff = 0f;
+            if (varObj != null)
+            {
+                if (varObj is int) currentDiff = (int)varObj;
+                else if (varObj is float) currentDiff = (float)varObj;
+                else
+                {
+                    try { currentDiff = System.Convert.ToSingle(varObj); } catch { currentDiff = 0f; }
+                }
+            }
+
+            // If Ink set a non-zero delta, apply it once and reset the variable in the story
+            if (Mathf.Abs(currentDiff) > 0.0001f)
+            {
+                ChangeSuspicion(currentDiff);
+                try { currentStory.variablesState["suspicionDiff"] = 0; } catch { }
+            }
         }
-        
-//ACTION
 
-//PROCESSING
-
+        //PROCESSING: determine which range we're in
         if (suspicionAmount >= 70)
         {
             sup70 = true;
@@ -64,33 +82,26 @@ public class SuspicionManager : MonoBehaviour
             sub70 = false;
             sup70 = false;
         }
-        else if (suspicionAmount < 70)
+        else
         {
             sub70 = true;
             sub30 = false;
             sup70 = false;
         }
 
-//EXECUTION
-
+        //EXECUTION: invoke relevant events
         if(sub30)
         {
             _onBelow30.Invoke();
-     
         }
         else if(sub70)
         {
             _onBelow70.Invoke();
-   
         }
         else if(sup70)
         {
             _onExceeded70.Invoke();
-        
         }
-        
-        prevSusp = currentSusp;
-
     }
 
     public static void ChangeSuspicion(float suspDelta)

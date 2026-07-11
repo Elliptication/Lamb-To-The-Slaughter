@@ -1,52 +1,104 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {
-
     public GameObject linked;
     public InteractionHandler handler;
     public float cooldown;
     public bool isDisabled = false;
 
-    // Start is called before the first frame update
+    private Button linkedButton;
+    private CanvasGroup linkedCanvasGroup;
+
+    void Awake()
+    {
+        if (linked != null)
+        {
+            linkedButton = linked.GetComponent<Button>();
+            linkedCanvasGroup = linked.GetComponent<CanvasGroup>();
+        }
+    }
+
     void Start()
     {
-        linked.SetActive(false);
+        if (linked != null && linked != gameObject)
+            linked.SetActive(false);
     }
 
-    void HideUI()
+    public void SetUIActive(bool active)
     {
-        linked.SetActive(false);
+        if (linked == null)
+            return;
+
+        if (linked != gameObject)
+        {
+            linked.SetActive(active);
+            return;
+        }
+
+        if (linkedCanvasGroup != null)
+        {
+            linkedCanvasGroup.alpha = active ? 1f : 0f;
+            linkedCanvasGroup.interactable = active;
+            linkedCanvasGroup.blocksRaycasts = active;
+        }
+        else if (linkedButton != null)
+        {
+            linkedButton.interactable = active;
+        }
     }
 
-    void ShowUI()
+    public void Highlight()
     {
-        linked.SetActive(true);
+        if (linkedButton != null && linkedButton.animator != null)
+            linkedButton.animator.Play("Highlighted");
+    }
+
+    public void SetNormalState()
+    {
+        if (linkedButton != null && linkedButton.animator != null)
+            linkedButton.animator.CrossFade("Normal", 0.3f);
+    }
+
+    public void SetDisabledState()
+    {
+        if (linkedButton != null && linkedButton.animator != null)
+            linkedButton.animator.CrossFade("Disabled", 0.3f);
+    }
+
+    public void Press()
+    {
+        if (linkedButton != null)
+        {
+            linkedButton.onClick.Invoke();
+            if (linkedButton.animator != null)
+                linkedButton.animator.Play("Pressed");
+        }
+
+        isDisabled = true;
     }
 
     void OnTriggerEnter2D(Collider2D c)
     {
-        if(c.tag == "InteractionHandler")
+        if (c.CompareTag("InteractionHandler"))
         {
-            linked.SetActive(true);
-            handler.interactableButtons.Add(linked.GetComponent<Button>());
-            handler.interactableTransforms.Add(linked.GetComponent<Transform>());
-            handler.interactableScripts.Add(GetComponent<Interactable>());
+            SetUIActive(true);
+            handler?.RegisterInteractable(this);
         }
     }
 
     void OnTriggerExit2D(Collider2D c)
     {
-        if(c.tag == "InteractionHandler")
+        if (c.CompareTag("InteractionHandler"))
         {
-            linked.SetActive(false);
-            handler.interactableButtons.Remove(linked.GetComponent<Button>());
-            handler.interactableTransforms.Remove(linked.GetComponent<Transform>());
-            handler.interactableScripts.Remove(GetComponent<Interactable>());
+            SetUIActive(false);
+            handler?.UnregisterInteractable(this);
         }
     }
 
+    void OnDisable()
+    {
+        handler?.UnregisterInteractable(this);
+    }
 }

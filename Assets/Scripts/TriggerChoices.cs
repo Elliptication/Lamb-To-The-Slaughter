@@ -11,6 +11,9 @@ public class TriggerChoices : MonoBehaviour
     [SerializeField] private TextAsset inkJSON;
 
     private bool playerInRange;
+    private GameObject playerObject;
+    private BasicMove playerMove;
+    private Stop playerStop;
 
     private void Awake()
     {
@@ -25,6 +28,9 @@ public class TriggerChoices : MonoBehaviour
             visualCue.SetActive(true);
             if (InputManager.GetInstance().GetInteractPressed())
             {
+                playerMove?.FaceTowards(transform.position);
+                playerMove?.StopMovement();
+                playerStop?.StopPlayer();
                 ManagerChoices.GetInstance().EnterDialogueMode(inkJSON);
             }
         }
@@ -39,6 +45,9 @@ public class TriggerChoices : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             playerInRange = true;
+            playerObject = collider.gameObject;
+            playerMove = playerObject.GetComponent<BasicMove>();
+            playerStop = playerObject.GetComponent<Stop>();
         }
     }
 
@@ -47,6 +56,9 @@ public class TriggerChoices : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             playerInRange = false;
+            playerObject = null;
+            playerMove = null;
+            playerStop = null;
         }
     }
 }

@@ -1,4 +1,4 @@
-VAR suspicionDiff = 0
+
 Do you know of anything that may have been used as the weapon, Mrs. Maloney? Something like a very big spanner?
 
 * I can't think of anything. There may be something in the garage.
@@ -24,7 +24,6 @@ Such as the one you put in the oven?
 
 === AgreedRes ===
 Mrs. Maloney, I'll have to bring you to the station while we investigate.
-~suspicionDiff = 30
 
 -> END
 

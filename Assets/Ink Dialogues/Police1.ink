@@ -18,9 +18,9 @@ Police: Which grocer did you traverse to?
 ~suspicionDiff = suspicionDiff - 10
 
 
-(noting down) "'...acted quite normal...wanted to give him a good supper..."
+(noting down) ...acted quite normal...wanted to give him a good supper...
 
-"cheesecake...impossible that she...'"(Dahl 6).
+cheesecake...impossible that she....
 
 ** Um.. Tony's. Wait no, actually, Sam's.
 ~suspicionDiff = suspicionDiff + 25

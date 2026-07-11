@@ -1,0 +1,4074 @@
+fileFormatVersion: 2
+guid: 197e4253a3ff82545b5e95ed37a9d9ec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interiors_free_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4071
+        width: 130
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d1ec8674309744f96c7a77337d3113
+      internalID: 2132349998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 4125
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108d8c8d34b0f2c4bac9190c8a83d819
+      internalID: -1986994415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 4221
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a070027fe33134983751af35a607e0
+      internalID: -10595583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4029
+        width: 129
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875c2c61238323488ecdfce0441d2f8
+      internalID: 2012729906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 3885
+        width: 102
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3551a20c0b85db3419b95fb7b963055f
+      internalID: 2053697625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 4071
+        width: 130
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883fe07645c533842bd55d7411119797
+      internalID: 990151735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 4125
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c0446ed3bcedf449812e0f29786f24
+      internalID: 1206345882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3885
+        width: 92
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55902162b4cfd7c46bfe78e4a4ba810e
+      internalID: 989179742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 4029
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70be5f727d763741acca85cf8d45df5
+      internalID: 234077369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 3875
+        width: 203
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0dd1ef47c4db4f93dadadc2c0d19f
+      internalID: -930082812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3831
+        width: 130
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b2b87d26aafc741aac7a8e046d44b0
+      internalID: 1135960198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3885
+        width: 14
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71d420220a2824d86ad95fd5eaffae
+      internalID: 1759551221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3885
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1096f7f7ad6dc4eaec098d89148bf2
+      internalID: 643591518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 3870
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f74f39ce4ad043b9959aeeeb9dfee
+      internalID: -1377237329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3676
+        width: 206
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06aca4988be27b4bbe33ce83a6df7fc
+      internalID: -1883857725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3676
+        width: 206
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55836a2e3f055647a55db85dc43bf83
+      internalID: -528993765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3699
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c1e13cce5fdce438feeb53348f221d
+      internalID: -594018662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 3316
+        width: 126
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa95dd95f08e7940ab612efe14c1af7
+      internalID: -1604098048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3654
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6776da66515890c4fb3689b79a5b80d2
+      internalID: -1191875527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3601
+        width: 70
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e45225b5536294586aba52a88e87e5
+      internalID: -165619890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3405
+        width: 480
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4921630994698474ebd6b683af7b282a
+      internalID: 1238228497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3608
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f17fc4ad5ba834fb96f0cb71446374
+      internalID: -859009485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3608
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bd31adc8e72424eaa5a0c09717b144
+      internalID: -1191938121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3514
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cc019a573708c4e81532533f6c6f09
+      internalID: -1255775656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 3549
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b8c2d9726c894ea7863fb9d292265
+      internalID: 817451881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 3555
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09261c39cfecd343b91f29cf2d1c970
+      internalID: -1160091112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3560
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416ee3bb7e3cf8849b2f1655b3aa532e
+      internalID: 1349652637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3460
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11fc23049513540836605e431139dd
+      internalID: -917689787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3453
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60fcbc27cc8a484cb531b950712fbc5
+      internalID: 622891896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3285
+        width: 198
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21edd8bb11445a248ad103b5b1eb8901
+      internalID: 1890883376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3285
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d186316e60997c4d9422029c35c236d
+      internalID: 1097848975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 3328
+        width: 150
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ac4c76318903541b2eafd9dd9064d3
+      internalID: 907016380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3357
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d5e6f8f4b5a7649a603734e8a81b5e
+      internalID: -1937909624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3312
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aa8193f36ec02449eaeb4ad13b4e0c
+      internalID: 658869818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3261
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee953ce3dab49744a0fcf7611d9f2b7
+      internalID: 1773210122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3237
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2d9fd49ecc66940b8f24b3fb52c30e
+      internalID: 1141539195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3165
+        width: 194
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991e9acdde44ce45ab2ee10b3a005d6
+      internalID: -1827653721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3168
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0686f56d78e61d54fb71c6ceac142b55
+      internalID: -463868418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3168
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e2cc9844ebc047b19426eb538f668
+      internalID: 644640151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 3241
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307a75f1be436694e9e632d3401c865a
+      internalID: 1459505502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_40
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 3213
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f90c9c522a971488ddb0a5cd1dc72d
+      internalID: 1123631539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_41
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 3193
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7adea908fec89644ad5231416dc8c7e
+      internalID: -1185693618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3142
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aad74ca8a00024fa0989231eb48f25
+      internalID: 1455612967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_43
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 3145
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41f605e07b9ed499d363d78d3b2dc2
+      internalID: 247280610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_44
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 3117
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4667f2cd45a11774588553488d2f22ff
+      internalID: -1867830951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3045
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f0ac50c6a85e34bb1989e7237fe6f0
+      internalID: 1392919070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 3045
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ff71dc97f78f94f81cfbfa92a38d9f
+      internalID: -906274392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2821
+        width: 254
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cef3ff67f02e0428411b7425632433
+      internalID: -796344535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_48
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 3036
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158258ee0dc23e64a980375467e238e3
+      internalID: -1554513247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_49
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 3026
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eba91dd6da4dd48802f0694276360b
+      internalID: -1262738549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_50
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2926
+        width: 118
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf483078e3156d4097dea1e440b23a2
+      internalID: 1199667285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2946
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b020df6e0510924d8c5a7f2539e452e
+      internalID: -1389614896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_52
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2946
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0cb2ba0af69054c91cc58a9bd1299b
+      internalID: 1963617294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2830
+        width: 218
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53d6fddfedcf744a938ccfdd2f54db1
+      internalID: -2024488204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_54
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2850
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2798f064440947ba6677de9de1445
+      internalID: 576194225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_55
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2832
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c372387019d645a6d19574d3fe028
+      internalID: -197563733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_56
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2832
+        width: 144
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85903e89e84352b469a11e694768c022
+      internalID: 312502716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_57
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2715
+        width: 51
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fa9df6ae99bec47b5ebb0b98786a2c
+      internalID: -1052385816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2604
+        width: 477
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ed0e96be15d3d4bb267134068db8a3
+      internalID: -1843991578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_59
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2715
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2b5a31a46370f47b18cd81402fea02
+      internalID: -1758259067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_60
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2715
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13740778551dd046831097065a03e0c
+      internalID: 471804643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_61
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2715
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cee06cce06e01498fd83d7d9c52e39
+      internalID: -1626706072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_62
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2715
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815051f2cc4b6014986a6aeb6e6bedc9
+      internalID: 1920614255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_63
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2715
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b556869d35fad4445a9ba007d569891a
+      internalID: -277435144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_64
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2619
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeee5db357e36741abaf1ccaa481e79
+      internalID: -1713563067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_65
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2619
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d90929fd3cab478a233a560614c11
+      internalID: 1974815326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_66
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2619
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f207bd4edaf5dcf4f895b230c9ebc7fe
+      internalID: 431776569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_67
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2619
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4761d05ac7383bc4db66ebd546e5ba70
+      internalID: -2037710683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_68
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2619
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6316ee06c94c60743bbc8a342acaeef0
+      internalID: 554858583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_69
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2619
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650c2b2f50191140a1706a0a87c179c
+      internalID: 1570329604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2377
+        width: 332
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bcee403eba9d843995b4a54bcb7de6
+      internalID: 1128044284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_71
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2452
+        width: 119
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217651bbd81f12449460d6f9d647dbc
+      internalID: 1436127396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_72
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2452
+        width: 119
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ffac86b151cc247883a1835e79695c
+      internalID: 631184535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_73
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2475
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbe2a1855b8bb04d9bdc7e3913ad40e
+      internalID: 945369719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_74
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2475
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7b207a7643f247b22305eb3df77c5
+      internalID: 236764024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2277
+        width: 47
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc1142bf8f6cde448560ead029e154c
+      internalID: 1142517242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_76
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2371
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeccfe9db7ec81140a695c6297ff75dd
+      internalID: -1375999124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_77
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2377
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed9c9e7ebbf804aaa3d923ce9041c2
+      internalID: 2121910776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2350
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca2753493ecda54ba0b04f03449dfa4
+      internalID: -1875629508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_79
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2254
+        width: 146
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5762dd5718a823848b02bf9022cd8b64
+      internalID: -857949238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_80
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2358
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642d5c9841ae8a14bad7e7b0d567c447
+      internalID: 766845176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_81
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2275
+        width: 14
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a836aa1e3e4914899982eb02b38df3
+      internalID: -251573686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_82
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2310
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdd479a25168944b83fc41642092bad
+      internalID: -1577249380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_83
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2281
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861898786407d134aad88c599aa7454a
+      internalID: 334001093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_84
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2281
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc5412bc4be274499176cec42ed8a5a
+      internalID: -976954779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_85
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2281
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f950e22beb19084c853dd1bf07f875a
+      internalID: 1864087330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_86
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2254
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2599f7d794a62d84a9e50c52ab1cca6a
+      internalID: -613881789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_87
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2260
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936c129098486bb4a8fd9e0bb7111f96
+      internalID: 1038786437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2262
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bd4da37ddf335428e0b88b4b10b5db
+      internalID: -360190995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2164
+        width: 284
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49496176baffe294a882d51cee4d4e39
+      internalID: -674247621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_90
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1977
+        width: 82
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f41d286fcb7f544b1f20bf364d41fe
+      internalID: -2087560185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_91
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1966
+        width: 238
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed91f02d97c03c4aafed5f1fd584d62
+      internalID: 837040574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_92
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1968
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e1a26ccd1f504eb4cc0121771ae7f
+      internalID: -997918096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_93
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2037
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba6dff00523bc54f83202a3f72182f0
+      internalID: -323927825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_94
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2035
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47fa7f16c2cdae4682ce54ec4ae5b4d
+      internalID: -1258770021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_95
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2064
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129725101a5163e4483327cee914e16d
+      internalID: -732960474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_96
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1966
+        width: 86
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7683e246c2624874e9b2b1ccf36c9f94
+      internalID: -1534455154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_97
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1858
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf8079087dd244b8c95053299ac04f
+      internalID: 458149968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_98
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1822
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be08d77913b81c4186912cfa183ac56
+      internalID: -1863750488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1822
+        width: 140
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371d693b0fe312f4095ee3381f2806cf
+      internalID: 569619742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_100
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1837
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fa267a9eaa04d42947abab4b175185
+      internalID: -964456311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_101
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1837
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d9818c47cd0544aac08b7ad0e23e1
+      internalID: -1609691354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_102
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1843
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1de60618d30724b96203b400ce21bb
+      internalID: 218983831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_103
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1843
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857b96cd5124e87459c7ee0fab248dc7
+      internalID: -372874922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_104
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1774
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9aaa0da9ee6434181b522bac300892
+      internalID: -81196188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_105
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1734
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a296672037589d458aea71f36eac372
+      internalID: 859230136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_106
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1693
+        width: 232
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49e9e9e0d89b044eabc66db31db1f43
+      internalID: -1782500260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_107
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1723
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc62b25dc7fa284aafbedc12132c658
+      internalID: -1880596085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_108
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1739
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26030da2cc7d408469a5d9133e0a3c11
+      internalID: 1405387755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_109
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1732
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406fe0354fe2d1a429265f0c4cdda912
+      internalID: 934234606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1651
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b32687731ae7c409767e247b47b9a8
+      internalID: -1092077408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_111
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1651
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d6900f7ff937d4fa0f2c37cbf6efb5
+      internalID: 485004586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_112
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1630
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1f135cbc1f4a246ae99b24d78150d5
+      internalID: -469210030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_113
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1630
+        width: 294
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dec314a44619f64cb0b57f02b741133
+      internalID: 656395792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_114
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1641
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06893120d0f1eb4a9b787203b2870bf
+      internalID: -465219200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1534
+        width: 147
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800479b84b5b94a4082c14d17055ac2b
+      internalID: 381368251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_116
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1551
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c171470e5799a7c48861c639dbc4ac41
+      internalID: 1662117588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_117
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1491
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f647d94d3ca529429fe494e51446706
+      internalID: -1457026633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_118
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1582
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46206a572fd997468e2233e07f7e222
+      internalID: 725016256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_119
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1534
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16369b6c1da80da41a2374f65eee5549
+      internalID: -153059540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_120
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1547
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce73567588555438f26edb96d07410
+      internalID: -1823792065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_121
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1536
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2745c7822d9e15b4983e90da4763e3cf
+      internalID: -721396471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1459
+        width: 147
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da57e2151e9cb2b4698fa95ca93d2095
+      internalID: -1271567076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_123
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1438
+        width: 102
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713cc34b772309e4dabf38d4e7cf6ce3
+      internalID: -1012147597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_124
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1497
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee6b168e3fb9e64f8a04e81d7d41bb9
+      internalID: 160987805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_125
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1405
+        width: 86
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc28bdf72a2a694fa60b47ae8c6c0ab
+      internalID: 1573879310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_126
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1459
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435089dbd26e8a14493bb4b74e0ec484
+      internalID: -1719126007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_127
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1455
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a33f4c4d042234ab2694ebc848f2bf
+      internalID: 1737174461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_128
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1449
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264df13190f055348a4b9314b3f7d607
+      internalID: 12014536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_129
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1438
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397593d861405046b3ae1caae848b8e
+      internalID: 1175638372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_130
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1359
+        width: 246
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4883d01fb279944bb0bde67723dda33
+      internalID: 184457233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1363
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb0d036d904eca4ebac6219a4656230
+      internalID: 817292266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_132
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1353
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880e3b017c84fe4a914c0db09bc9c9d
+      internalID: 698157170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_133
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1359
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7d81abd3505dc4892d291185f6c92a
+      internalID: 2111697466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_134
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1309
+        width: 131
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e84e7f858a39044db86916317e45af6
+      internalID: 853971072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_135
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1303
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b9cb6a30e94d4f901cebcb28aba30
+      internalID: -104353263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_136
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1305
+        width: 185
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59e89520aef7274082ca40297b8fe14
+      internalID: -470924910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1123
+        width: 339
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c350ad2bc8d343b10af6954c7dde3
+      internalID: 1172823683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_138
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1230
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d553b6777e7534888b3fb54fbe3cc9
+      internalID: 1855956987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_139
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1207
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8629f5e49b8eff44389a11d5df7208c8
+      internalID: -626682149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_140
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1224
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe794d21734f314f9bf61349588115e
+      internalID: -102701238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_141
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1224
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50bbb8d4e89134ebba4f2a711a609b
+      internalID: -2107069453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_142
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1173
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492b929960dcae4faad18e2b2ae6ad3
+      internalID: -1459325269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_143
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1159
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f285f1cdc7c6d849b0b0cb57af8aa83
+      internalID: 744316780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1015
+        width: 194
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f7a48b54a28ba43a63a05a63a1619b
+      internalID: 631490026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_145
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 933
+        width: 64
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001c683cee3424b40a9b4a639f6b4e33
+      internalID: -1092315449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_146
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 981
+        width: 64
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2dda45c9004cb43aad81eb844e1251
+      internalID: 210434277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_147
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1019
+        width: 97
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4d382c0100d448b33a7ec925dd242
+      internalID: 704038007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 742
+        width: 291
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbef6a1635b79fb40a536bba8a5943f2
+      internalID: -2096093244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_149
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 838
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff527bbe679566348987e3f6f98b0cb4
+      internalID: 135787162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_150
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 885
+        width: 291
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db92708e2e8b042a355690b98f4728
+      internalID: -1063576047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_151
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 623
+        width: 765
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec335ba7f51049f48a1ef2437933e42c
+      internalID: -1035461106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_152
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 598
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0babfd3d0138643b85d21be97e900b
+      internalID: -889502712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_153
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 596
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd1e4355466334dae1dbebf23c558b
+      internalID: -1866737899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_154
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 598
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd56be677087a8941aa2834e0695ab90
+      internalID: 2083501733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_155
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 598
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ff10f987f6a884996d9f8e2b39a4a4
+      internalID: -1107321495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_156
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 548
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66924e68f9dc3944bada649958958edb
+      internalID: 1180976475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_157
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 429
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7584e435c5d5d1345af636dc2f5a9003
+      internalID: -1987901852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_158
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 237
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891e1b8735ab49d4ebc01fef8980b9ea
+      internalID: 1737535109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_159
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 429
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e30c23ef2a6c444810cfb1aec0bcd3
+      internalID: 1619160620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_160
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 237
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1d874dd92b0644bec68f8358fe349
+      internalID: 1486230206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_161
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 237
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d864391977acb478625a360b3c8ce3
+      internalID: 1278721993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_162
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 429
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9d485e0e2b26f4fb914aa170c19db2
+      internalID: 1018103154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_163
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 120
+        width: 146
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2197df82c0975ab419e4dc8e60ded030
+      internalID: 1712771509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_164
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 22
+        width: 102
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a269ffc23b6fc4f84b4f853cd2048c
+      internalID: 1109339289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_165
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 429
+        width: 71
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6ab3c4aeab3aa418505de7fea229d9
+      internalID: 1013397205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_166
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 498
+        width: 96
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb1382793cf8d438b8e2d7dcaa7203
+      internalID: -1088292530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_167
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 216
+        width: 239
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986b6014ec49cc941ab4d95157f146c7
+      internalID: -1067517261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_168
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 406
+        width: 239
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be88d6cee0dda4888c888f6c4b54b0
+      internalID: -1343882321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_169
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 168
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8a0b6929bca14093d5d80bbb97080
+      internalID: 105592662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_170
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 72
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23a45e26019c62458472f277ff0dfa4
+      internalID: -1635915158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_171
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 166
+        width: 143
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86577dd29559aad42b4efca72ac2a224
+      internalID: -1569758463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_172
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 72
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e414fe7a93efa2a459831594018b93bf
+      internalID: -487671666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_173
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 498
+        width: 86
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9093030a1e0bd340baebf1d281233ac
+      internalID: -1475855159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_174
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 22
+        width: 99
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e0aa7e98f072c45b096da6413eebd9
+      internalID: -1641645227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_175
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1652
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc228b4601c28844bb4bfc75d12b3f3
+      internalID: 779283231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_176
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1035
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a421b87c53e4b439aa7115afd629c8
+      internalID: -1105816734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_177
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1739
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42b017a21ccd0745a7d58fd87ec0e4d
+      internalID: -1858224823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_178
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1649
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c0e18e5102334992855623ef81ce1
+      internalID: -2100462832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interiors_free_48x48_179
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1603
+        width: 47
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32773cdd77db8094c80749cf58ba06fa
+      internalID: -88498359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8839756f422c8c44c8834a989a4ec194
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Interiors_free_48x48_0: 2132349998
+      Interiors_free_48x48_1: -1986994415
+      Interiors_free_48x48_10: 1135960198
+      Interiors_free_48x48_100: -964456311
+      Interiors_free_48x48_101: -1609691354
+      Interiors_free_48x48_102: 218983831
+      Interiors_free_48x48_103: -372874922
+      Interiors_free_48x48_104: -81196188
+      Interiors_free_48x48_105: 859230136
+      Interiors_free_48x48_106: -1782500260
+      Interiors_free_48x48_107: -1880596085
+      Interiors_free_48x48_108: 1405387755
+      Interiors_free_48x48_109: 934234606
+      Interiors_free_48x48_11: 1759551221
+      Interiors_free_48x48_110: -1092077408
+      Interiors_free_48x48_111: 485004586
+      Interiors_free_48x48_112: -469210030
+      Interiors_free_48x48_113: 656395792
+      Interiors_free_48x48_114: -465219200
+      Interiors_free_48x48_115: 381368251
+      Interiors_free_48x48_116: 1662117588
+      Interiors_free_48x48_117: -1457026633
+      Interiors_free_48x48_118: 725016256
+      Interiors_free_48x48_119: -153059540
+      Interiors_free_48x48_12: 643591518
+      Interiors_free_48x48_120: -1823792065
+      Interiors_free_48x48_121: -721396471
+      Interiors_free_48x48_122: -1271567076
+      Interiors_free_48x48_123: -1012147597
+      Interiors_free_48x48_124: 160987805
+      Interiors_free_48x48_125: 1573879310
+      Interiors_free_48x48_126: -1719126007
+      Interiors_free_48x48_127: 1737174461
+      Interiors_free_48x48_128: 12014536
+      Interiors_free_48x48_129: 1175638372
+      Interiors_free_48x48_13: -1377237329
+      Interiors_free_48x48_130: 184457233
+      Interiors_free_48x48_131: 817292266
+      Interiors_free_48x48_132: 698157170
+      Interiors_free_48x48_133: 2111697466
+      Interiors_free_48x48_134: 853971072
+      Interiors_free_48x48_135: -104353263
+      Interiors_free_48x48_136: -470924910
+      Interiors_free_48x48_137: 1172823683
+      Interiors_free_48x48_138: 1855956987
+      Interiors_free_48x48_139: -626682149
+      Interiors_free_48x48_14: -1883857725
+      Interiors_free_48x48_140: -102701238
+      Interiors_free_48x48_141: -2107069453
+      Interiors_free_48x48_142: -1459325269
+      Interiors_free_48x48_143: 744316780
+      Interiors_free_48x48_144: 631490026
+      Interiors_free_48x48_145: -1092315449
+      Interiors_free_48x48_146: 210434277
+      Interiors_free_48x48_147: 704038007
+      Interiors_free_48x48_148: -2096093244
+      Interiors_free_48x48_149: 135787162
+      Interiors_free_48x48_15: -528993765
+      Interiors_free_48x48_150: -1063576047
+      Interiors_free_48x48_151: -1035461106
+      Interiors_free_48x48_152: -889502712
+      Interiors_free_48x48_153: -1866737899
+      Interiors_free_48x48_154: 2083501733
+      Interiors_free_48x48_155: -1107321495
+      Interiors_free_48x48_156: 1180976475
+      Interiors_free_48x48_157: -1987901852
+      Interiors_free_48x48_158: 1737535109
+      Interiors_free_48x48_159: 1619160620
+      Interiors_free_48x48_16: -594018662
+      Interiors_free_48x48_160: 1486230206
+      Interiors_free_48x48_161: 1278721993
+      Interiors_free_48x48_162: 1018103154
+      Interiors_free_48x48_163: 1712771509
+      Interiors_free_48x48_164: 1109339289
+      Interiors_free_48x48_165: 1013397205
+      Interiors_free_48x48_166: -1088292530
+      Interiors_free_48x48_167: -1067517261
+      Interiors_free_48x48_168: -1343882321
+      Interiors_free_48x48_169: 105592662
+      Interiors_free_48x48_17: -1604098048
+      Interiors_free_48x48_170: -1635915158
+      Interiors_free_48x48_171: -1569758463
+      Interiors_free_48x48_172: -487671666
+      Interiors_free_48x48_173: -1475855159
+      Interiors_free_48x48_174: -1641645227
+      Interiors_free_48x48_175: 779283231
+      Interiors_free_48x48_176: -1105816734
+      Interiors_free_48x48_177: -1858224823
+      Interiors_free_48x48_178: -2100462832
+      Interiors_free_48x48_179: -88498359
+      Interiors_free_48x48_18: -1191875527
+      Interiors_free_48x48_19: -165619890
+      Interiors_free_48x48_2: -10595583
+      Interiors_free_48x48_20: 1238228497
+      Interiors_free_48x48_21: -859009485
+      Interiors_free_48x48_22: -1191938121
+      Interiors_free_48x48_23: -1255775656
+      Interiors_free_48x48_24: 817451881
+      Interiors_free_48x48_25: -1160091112
+      Interiors_free_48x48_26: 1349652637
+      Interiors_free_48x48_27: -917689787
+      Interiors_free_48x48_28: 622891896
+      Interiors_free_48x48_29: 1890883376
+      Interiors_free_48x48_3: 2012729906
+      Interiors_free_48x48_30: 1097848975
+      Interiors_free_48x48_31: 907016380
+      Interiors_free_48x48_32: -1937909624
+      Interiors_free_48x48_33: 658869818
+      Interiors_free_48x48_34: 1773210122
+      Interiors_free_48x48_35: 1141539195
+      Interiors_free_48x48_36: -1827653721
+      Interiors_free_48x48_37: -463868418
+      Interiors_free_48x48_38: 644640151
+      Interiors_free_48x48_39: 1459505502
+      Interiors_free_48x48_4: 2053697625
+      Interiors_free_48x48_40: 1123631539
+      Interiors_free_48x48_41: -1185693618
+      Interiors_free_48x48_42: 1455612967
+      Interiors_free_48x48_43: 247280610
+      Interiors_free_48x48_44: -1867830951
+      Interiors_free_48x48_45: 1392919070
+      Interiors_free_48x48_46: -906274392
+      Interiors_free_48x48_47: -796344535
+      Interiors_free_48x48_48: -1554513247
+      Interiors_free_48x48_49: -1262738549
+      Interiors_free_48x48_5: 990151735
+      Interiors_free_48x48_50: 1199667285
+      Interiors_free_48x48_51: -1389614896
+      Interiors_free_48x48_52: 1963617294
+      Interiors_free_48x48_53: -2024488204
+      Interiors_free_48x48_54: 576194225
+      Interiors_free_48x48_55: -197563733
+      Interiors_free_48x48_56: 312502716
+      Interiors_free_48x48_57: -1052385816
+      Interiors_free_48x48_58: -1843991578
+      Interiors_free_48x48_59: -1758259067
+      Interiors_free_48x48_6: 1206345882
+      Interiors_free_48x48_60: 471804643
+      Interiors_free_48x48_61: -1626706072
+      Interiors_free_48x48_62: 1920614255
+      Interiors_free_48x48_63: -277435144
+      Interiors_free_48x48_64: -1713563067
+      Interiors_free_48x48_65: 1974815326
+      Interiors_free_48x48_66: 431776569
+      Interiors_free_48x48_67: -2037710683
+      Interiors_free_48x48_68: 554858583
+      Interiors_free_48x48_69: 1570329604
+      Interiors_free_48x48_7: 989179742
+      Interiors_free_48x48_70: 1128044284
+      Interiors_free_48x48_71: 1436127396
+      Interiors_free_48x48_72: 631184535
+      Interiors_free_48x48_73: 945369719
+      Interiors_free_48x48_74: 236764024
+      Interiors_free_48x48_75: 1142517242
+      Interiors_free_48x48_76: -1375999124
+      Interiors_free_48x48_77: 2121910776
+      Interiors_free_48x48_78: -1875629508
+      Interiors_free_48x48_79: -857949238
+      Interiors_free_48x48_8: 234077369
+      Interiors_free_48x48_80: 766845176
+      Interiors_free_48x48_81: -251573686
+      Interiors_free_48x48_82: -1577249380
+      Interiors_free_48x48_83: 334001093
+      Interiors_free_48x48_84: -976954779
+      Interiors_free_48x48_85: 1864087330
+      Interiors_free_48x48_86: -613881789
+      Interiors_free_48x48_87: 1038786437
+      Interiors_free_48x48_88: -360190995
+      Interiors_free_48x48_89: -674247621
+      Interiors_free_48x48_9: -930082812
+      Interiors_free_48x48_90: -2087560185
+      Interiors_free_48x48_91: 837040574
+      Interiors_free_48x48_92: -997918096
+      Interiors_free_48x48_93: -323927825
+      Interiors_free_48x48_94: -1258770021
+      Interiors_free_48x48_95: -732960474
+      Interiors_free_48x48_96: -1534455154
+      Interiors_free_48x48_97: 458149968
+      Interiors_free_48x48_98: -1863750488
+      Interiors_free_48x48_99: 569619742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
